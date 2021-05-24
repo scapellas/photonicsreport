@@ -8,7 +8,7 @@ function [r] = quintic(orbit)
     L = 3.8e26;
     Ms = 1.989e30;
     
-    %Earth
+    % Earth
     Me = 5.972e24;
     R = 1.496e11;
     T = 365.256*24*3600;
