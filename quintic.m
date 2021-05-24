@@ -18,9 +18,9 @@ function [r] = quintic(orbit)
     A = 1672;
     m = 90;
 
-    if orbit == 0
+    if orbit == 0 % L1 orbit
         Meff = Ms;
-    else
+    else % Sub-L1 orbit
         Meff = Ms - L*A/(2*pi*c*G*m);
     end
     
