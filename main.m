@@ -1,5 +1,3 @@
-clear;
-
 % Finds the two equilibrium points.
 L1 = quintic(0);
 r = quintic(1);
