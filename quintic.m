@@ -34,8 +34,8 @@ function [r] = quintic(orbit)
     a2 = beta - alfa;
     a1 = 2*R*alfa;
     a0 = -alfa*R^2;
+    
     sols = roots([a5, a4, a3, a2, a1, a0]);
     r = sols(5);
     
 end
-
